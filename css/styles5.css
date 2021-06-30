@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Nanum+Gothic&display=swap');
+*{
+ box-sizing: border-box;
+}
+body{
+ width: 100%;
+ margin: 0;
+}
+body ul, ol{
+ list-style-type: none;
+ padding: 0;
+ margin: 0;
+}
+.container{
+ width: 1100px;
+ min-height: 500px;
+ background-color: white;
+ margin: auto;
+}
+.container .top-header{
+ display: flex;
+ width: 100%;
+ height: 60px;
+ justify-content: space-between;
+ align-items: center;
+ background: white;
+}
+
+.container .top-header .site-menu{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ width:70%;
+ height: 40px;
+ padding-right: 25px;
+ font-size: 25px;
+ font-family: "ibm plex Sans";  
+}
+.container .top-header .site-menu li a{
+ text-decoration: none;
+}
+
+.container footer{
+ background: black;
+ width: 100%;
+ height: 100px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ margin-bottom: 10px;
+}
+.container footer .footer-menu{
+ display: flex;
+ width: 55%;
+ justify-content: space-between;
+ font-size: 25px;
+font-family: "ibm plex Sans"; 
+}
+.container footer .footer-menu li a{
+ text-decoration: none;
+ color: white;
+}
+
